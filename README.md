@@ -43,6 +43,6 @@ To Run:
        Example: java GeneticAlgorithm TSP 5 10 0.8 1.7 1000
 
 To-Come:
-Create a GUI representation.
-Allow for different methods of selection, recombination, and mutation.
-Give the choice to solve more problems.
+-Create a GUI representation.
+-Allow for different methods of selection, recombination, and mutation.
+-Give the choice to solve more problems.
