@@ -2,7 +2,7 @@
 A Genetic Algorithm that solves the NQueens and Travelling Sales Person problems. 
 Written using java.
 
-The Problems:
+### The Problems:
 
 The NQueens problem involves placing N queens on a NxN chess board such that none of the queens check eachother. That is none are in the same row, column, or diagonal. 
 
@@ -11,7 +11,7 @@ For the Travelling Salesperson Problem (TSP) you are given a list of cities and 
 To see the TSP the algorithm solves:
 See TSPGraph.PNG
 
-The Solution:
+### The Solution:
 
 For a 12x12 board there are over 100 quadrillion ways to arrange the queens. So testing every possible arrangment takes to much work and time.
 
@@ -19,7 +19,7 @@ Instead of testing every possible solution this algorithm uses an evolutionary a
 
 The goal is to find strong candidate solutions and create even stronger solutions from the candidate solutions selected. Leading to an optimal solution. It follows the theory of "Survival of the fittest".
 
-To Run:
+### To Run:
 
 - DownLoad the files in src folder.
 
@@ -41,8 +41,3 @@ To Run:
                                 OR
 
        Example: java GeneticAlgorithm TSP 5 10 0.8 1.7 1000
-
-To-Come:
--Create a GUI representation.
--Allow for different methods of selection, recombination, and mutation.
--Give the choice to solve more problems.
